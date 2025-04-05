@@ -18,8 +18,8 @@ const ScrollingText: React.FC<ScrollingTextProps> = ({
       <style>
         {`
           @keyframes scroll {
-            0% { transform: translateX(-50%); } /* Start shifted left */
-            100% { transform: translateX(0%); }   /* End at original position */
+            0% { transform: translateX(0%); } /* Start at original position */
+            100% { transform: translateX(-50%); }   /* End shifted left */
           }
         `}
       </style>
